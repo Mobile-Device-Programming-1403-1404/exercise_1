@@ -27,8 +27,8 @@ fun StudentInfo(studentViewModel: StudentViewModel) {
     val screenWidth = LocalConfiguration.current.screenWidthDp.dp
     val screenHeight = LocalConfiguration.current.screenHeightDp.dp
 
-    val boxWidth = screenWidth * 0.95f
-    val boxHeight = screenHeight * 0.95f
+    val boxWidth = screenWidth * 0.70f
+    val boxHeight = screenHeight * 0.75f
 
     Box(
         modifier = Modifier
